@@ -84,7 +84,7 @@ plt.xticks(x_positions,x_labels)
 plt.xlabel('Sidereal days')
 ver_line=np.zeros([720])
 
-#~~~~ Plot for a particular day ~~~~#
+#~~~~ Plot for a particular day(Histogram)~~~~#
 #Description: This is the plot in 160*720 pixels divided into two parts.
 #First 80*720 pixels showing the -ve variation of a particular day and the next 80*720 pixels showing the +variation.
 arraydummy=arrayh-datasum1
